@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width:320px;
+	height: 568px;
+	background:url(img/background_1.png);
+	margin: 30px 0 0 400px;
+	position: relative;
+	/*overflow-y: hidden;*/
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 30px;
+	border: 1px solid black;
+}
+#start{
+	width:320px;
+	height: 568px;
+	background:url(img/strat.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+#start a{
+	position: relative;
+	top: 500px;
+	left: 60px;
+}
+#score{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 4;
+}
+#control{
+	position: absolute;
+	top: 300px;
+	left: 60px;
+	z-index: 3;
+	display: none;
+}
+#control a{
+	margin-bottom:20px;
+}
+#gameover{
+	position: absolute;
+	top: 250px;
+	left: 60px;
+	z-index: 4;
+	display: none;
+	width: 200px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#gameover p{
+	font-size: 20px;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#gameover a{
+	width: 100px;
+	margin:15px auto;
+}
+#main img{
+	position: absolute;
+	z-index: 1;
+}
+
+#div1{
+	position: absolute;
+	top: 0;
+	left: 400px;
+	width: 320px;
+	height: 30px;
+	background-color: #fff;
+	z-index: 10;
+
+}
+
+#div2{
+	position: absolute;
+	top: 598;
+	left: 400px;
+	width: 320px;
+	height: 200px;
+	background-color: #fff;
+	z-index: 10;
+}
